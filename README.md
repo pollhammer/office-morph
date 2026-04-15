@@ -12,7 +12,7 @@
 **Office-Morph 2026** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards.
 
 ## 📦 Components
-*   **Office_Morph_2026.bat**: The primary execution interface (Starter).
+*   **Office-Morph.bat**: The primary execution interface (Starter).
 *   **FolderConverter.ps1**: The core processing engine.
 
 ## 🚀 Usage Modes
