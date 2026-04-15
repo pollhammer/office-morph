@@ -1,20 +1,40 @@
-# Office Morph 2026 (v1.0)
-**Developed by Manuel Pollhammer**
+# OFFICE MORPH 2026 — Version 1.0
+**Powered by PowerShell | © 2026 Manuel Pollhammer**
 
-Office Morph 2026 is a robust automation utility built to modernize legacy document archives. It leverages PowerShell and Microsoft Office COM interfaces to transform old file formats into current industry standards without manual intervention.
+---
 
-## 🚀 Key Features
-*   **Deep Scan:** Automatically discovers legacy files in complex subfolder structures.
-*   **Smart Intelligence:** Detects existing files to prevent redundant conversions.
-*   **Clean Output:** Ensures perfect naming conventions (no double extensions).
-*   **Flexible Input:** Supports Drag-and-Drop, manual path entry, or local execution.
+## 📝 Description
+**Office Morph 2026** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards.
 
-## 🛠 Usage
-1.  **Drag-and-Drop:** Drop any folder onto `Office_Morph_2026.bat`.
-2.  **Manual:** Launch the batch file and paste your target directory.
-3.  **Local:** Simply hit "Enter" to process the current directory.
+## 📦 Components
+*   **Office_Morph_2026.bat**: The primary execution interface (Starter).
+*   **FolderConverter.ps1**: The core processing engine.
 
-> **Note:** This tool requires **Local Administrator Privileges** and a licensed version of Microsoft Office installed on the host machine.
+## 🚀 Usage Modes
+The tool is highly flexible and offers three distinct execution modes:
 
-## ⚖️ License
-Released in 2026. Created for efficiency and archive modernization.
+1.  **Drag-and-Drop (Maximum Convenience):** 
+    Simply drag a folder and drop it directly onto the `Office_Morph_2026.bat` file.
+2.  **Manual Input:** 
+    Launch the batch file and paste the target directory path into the console, then confirm with **Enter**.
+3.  **Express Mode (Current Folder):** 
+    Launch the batch file and press **Enter** at the path prompt to process the directory where the tool is located.
+
+---
+
+## ⚠️ Important: Administrative Rights
+This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM interfaces and perform file system operations.  
+**Please run `Office_Morph_2026.bat` by RIGHT-CLICKING and selecting "RUN AS ADMINISTRATOR".**
+
+---
+
+## ✨ Key Features
+*   **Deep Scan:** Automatically detects `.doc`, `.xls`, and `.ppt` files across all subdirectories.
+*   **Smart Skip:** Efficiently skips files that have already been converted to modern formats.
+*   **Clean Naming:** Advanced logic prevents double file extensions (e.g., no `..xlsx`).
+*   **Multi-App Sync:** Orchestrates Word, Excel, and PowerPoint instances in parallel for maximum efficiency.
+
+## 🛠 Prerequisites
+*   Installed Microsoft Office Suite (Word, Excel, PowerPoint).
+*   Windows PowerShell 5.1 or higher.
+*   Built in 2026 for maximum compatibility.
