@@ -1,7 +1,7 @@
 <div align="center">
     
 # OFFICE-MORPH <br>v1.1
-**Manuel Pollhammer**
+**by Manuel Pollhammer (2026)**
 </div>
 
 <p align="center">
