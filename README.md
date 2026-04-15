@@ -1,5 +1,5 @@
 # OFFICE-MORPH - Version 1.1
-**Powered by PowerShell | © 2026 Manuel Pollhammer**
+**Powered by PowerShell | 2026 Manuel Pollhammer**
 
 ---
 
