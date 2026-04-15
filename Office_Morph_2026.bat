@@ -1,19 +1,18 @@
 @echo off
-:: #######################################################
-:: # PROJECT: OFFICE MORPH 2026 - Version 1.0
-:: # AUTHOR:  Manuel Pollhammer
-:: # DATE:    2026
-:: # INFO:    Requires Local Admin Rights
-:: #######################################################
+:: ============================================================
+:: Office-Morph 2026 v1.1
+:: GitHub: https://github.com/pollhammer/office-morph
+:: Author: Manuel Pollhammer
+:: ============================================================
 
 setlocal enabledelayedexpansion
-title Office Morph 2026 - Manuel Pollhammer
+title Office-Morph 2026 - Manuel Pollhammer
 
-:: Administrator-Check
+:: Administrator Check
 net session >nul 2>&1
 if %errorLevel% neq 0 (
-    echo [!] BITTE ALS ADMINISTRATOR AUSFUEHREN
-    echo Rechtsklick auf die Datei -> Als Administrator ausfuehren
+    echo [!] PLEASE RUN AS ADMINISTRATOR
+    echo Right-click the file -^> Run as administrator
     pause
     exit /b
 )
@@ -23,26 +22,26 @@ set "target=%~1"
 
 if "%target%"=="" (
     echo.
-    echo    OFFICE MORPH 2026
+    echo    OFFICE-MORPH 2026
     echo    -----------------
     echo.
-    set /p "target=Bitte Pfad eingeben (oder Enter fuer diesen Ordner): "
+    set /p "target=Please enter path (or press Enter for this folder): "
 )
 
-:: 2. Check: Default auf aktuellen Ordner
+:: 2. Check: Default to current folder
 if "!target!"=="" (
     set "target=%~dp0"
 )
 
-:: Bereinigung
+:: Cleanup
 set "target=!target:"=!"
 
 echo.
-echo [+] Starte Konvertierung in: "!target!"
+echo [+] Starting conversion in: "!target!"
 echo.
 
 powershell.exe -ExecutionPolicy Bypass -File "%~dp0FolderConverter.ps1" -TargetFolder "!target!"
 
 echo.
-echo [+] Vorgang abgeschlossen.
+echo [+] Process completed.
 pause
