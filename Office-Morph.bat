@@ -1,12 +1,12 @@
 @echo off
 :: ============================================================
-:: Office-Morph 2026 v1.1
+:: Office-Morph v1.1
 :: GitHub: https://github.com/pollhammer/office-morph
 :: Author: Manuel Pollhammer
 :: ============================================================
 
 setlocal enabledelayedexpansion
-title Office-Morph 2026 - Manuel Pollhammer
+title Office-Morph v1.1 - Manuel Pollhammer
 
 :: Administrator Check
 net session >nul 2>&1
@@ -22,7 +22,7 @@ set "target=%~1"
 
 if "%target%"=="" (
     echo.
-    echo    OFFICE-MORPH 2026
+    echo    OFFICE-MORPH v1.1
     echo    -----------------
     echo.
     set /p "target=Please enter path (or press Enter for this folder): "
