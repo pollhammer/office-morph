@@ -1,7 +1,7 @@
 <div align="center">
     
 # OFFICE-MORPH <br>v1.1
-**2026 Manuel Pollhammer**
+**Manuel Pollhammer**
 </div>
 
 <p align="center">
