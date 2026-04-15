@@ -23,7 +23,7 @@ if (-not (Test-Path $TargetFolder)) {
     return
 }
 
-Write-Host ">>> Office Morph Engine aktiv" -ForegroundColor Cyan
+Write-Host ">>> Office-Morph Engine aktiv" -ForegroundColor Cyan
 Write-Host ">>> Ziel: $TargetFolder" -ForegroundColor Gray
 Write-Host "---------------------------------------------------"
 
