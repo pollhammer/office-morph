@@ -1,7 +1,7 @@
 <div align="center">
     
 # OFFICE-MORPH <br>v1.1
-**Powered by PowerShell | 2026 Manuel Pollhammer**
+**2026 Manuel Pollhammer**
 </div>
 
 <p align="center">
