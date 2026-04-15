@@ -1,9 +1,9 @@
 <#
 .SYNOPSIS
-    OFFICE MORPH 2026 - Core Conversion Engine
+    OFFICE-MORPH 2026 - Core Conversion Engine
     
 .DESCRIPTION
-    Konvertiert .doc, .xls und .ppt in moderne Formate.
+    Converts legacy .doc, .xls, and .ppt files into modern XML formats.
     
 .AUTHOR
     Manuel Pollhammer
@@ -14,17 +14,17 @@
 
 param([string]$TargetFolder)
 
-# Initialisierung & Pfad-Fix
+# Initialization & Path Cleanup
 if ([string]::IsNullOrWhiteSpace($TargetFolder)) { $TargetFolder = $PSScriptRoot }
 $TargetFolder = $TargetFolder.Trim('"').Trim("'")
 
 if (-not (Test-Path $TargetFolder)) {
-    Write-Host "[!] Pfad nicht gefunden: $TargetFolder" -ForegroundColor Red
+    Write-Host "[!] Path not found: $TargetFolder" -ForegroundColor Red
     return
 }
 
-Write-Host ">>> Office-Morph Engine aktiv" -ForegroundColor Cyan
-Write-Host ">>> Ziel: $TargetFolder" -ForegroundColor Gray
+Write-Host ">>> Office-Morph Engine Active" -ForegroundColor Cyan
+Write-Host ">>> Target: $TargetFolder" -ForegroundColor Gray
 Write-Host "---------------------------------------------------"
 
 $word = $excel = $ppt = $null
@@ -32,11 +32,11 @@ function Get-Word  { if (!$script:word)  { $script:word  = New-Object -ComObject
 function Get-Excel { if (!$script:excel) { $script:excel = New-Object -ComObject Excel.Application; $script:excel.DisplayAlerts = $false }; return $script:excel }
 function Get-PPT   { if (!$script:ppt)   { $script:ppt   = New-Object -ComObject PowerPoint.Application }; return $script:ppt }
 
-# Dateisuche
+# File Search
 $files = Get-ChildItem -Path $TargetFolder -Include *.doc, *.xls, *.ppt -Recurse -ErrorAction SilentlyContinue | Select-Object -Unique
 
 if ($null -eq $files -or $files.Count -eq 0) {
-    Write-Host "Keine konvertierbaren Dateien gefunden." -ForegroundColor Gray
+    Write-Host "No convertible files found." -ForegroundColor Gray
 } else {
     foreach ($file in $files) {
         $basePath = $file.FullName.Substring(0, $file.FullName.Length - $file.Extension.Length)
@@ -45,7 +45,7 @@ if ($null -eq $files -or $files.Count -eq 0) {
 
         if (Test-Path $newPath) { continue }
 
-        Write-Host "Morphe: $($file.Name)... " -NoNewline -ForegroundColor Cyan
+        Write-Host "Morphing: $($file.Name)... " -NoNewline -ForegroundColor Cyan
         
         try {
             switch ($file.Extension.ToLower()) {
@@ -65,9 +65,9 @@ if ($null -eq $files -or $files.Count -eq 0) {
                     $pres.Close() 
                 }
             }
-            Write-Host "ERFOLG" -ForegroundColor Green
+            Write-Host "SUCCESS" -ForegroundColor Green
         } catch {
-            Write-Host "FEHLER" -ForegroundColor Red
+            Write-Host "FAILED" -ForegroundColor Red
         }
     }
 }
