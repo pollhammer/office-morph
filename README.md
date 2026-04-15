@@ -9,7 +9,7 @@
 ---
 
 ## 📝 Description
-**Office-Morph 2026** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards.
+**Office-Morph** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards.
 
 ## 📦 Components
 *   **Office-Morph.bat**: The primary execution interface (Starter).
@@ -18,12 +18,12 @@
 ## 🚀 Usage Modes
 The tool is highly flexible and offers three distinct execution modes:
 
-1.  **Drag-and-Drop (Maximum Convenience):** 
+1.  **Drag'n'Drop (Maximum Convenience):** 
     Simply drag a folder and drop it directly onto the `Office-Morph.bat` file.
 2.  **Manual Input:** 
     Launch the batch file and paste the target directory path into the console, then confirm with **Enter**.
-3.  **Express Mode (Current Folder):** 
-    Launch the batch file and press **Enter** at the path prompt to process the directory where the tool is located.
+3. **Express Mode (Current Folder):** 
+    Launch the batch file and press **Enter** to process the tool's current directory.
 
 ---
 
