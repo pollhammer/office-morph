@@ -41,7 +41,7 @@ This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM inter
 
 ## ✨ Key Features
 *   **Summary Statistics:** Provides a detailed report (Converted / Skipped / Errors) after each run. **✨NEW✨**
-*   **Deep Scan:** Automatically detects legacy files across all subdirectories.
+*   **Deep Scan:** Automatically detects legacy files across all subdirectories. **✨NEW✨**
 *   **Smart Skip:** Efficiently skips files already converted to save time.
 *   **Temp-File Shield:** Automatically ignores hidden Office temporary files (`~$`). **✨NEW✨**
 *   **Clean Naming:** Advanced logic prevents double file extensions (e.g., no `..xlsx`).
