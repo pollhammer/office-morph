@@ -1,9 +1,13 @@
 <div align="center">
-    
-# OFFICE-MORPH <br>v1.2
-**Automated Legacy Office Modernization** <br>
-by Manuel Pollhammer (2026)
+  <img src="./logo/Office-Morph-logo.png" alt="Office-Morph Logo" width="300">
+  <br>
+  <strong>v1.2</strong>
+  <br>
+  <strong>Automated Legacy Office Modernization</strong>
+  <br>
+  <em>by Manuel Pollhammer (2026)</em>
 </div>
+
 
 ---
 
