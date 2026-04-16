@@ -17,7 +17,7 @@ by Manuel Pollhammer (2026)
 ## 🚀 Usage Modes
 The tool is highly flexible and offers three distinct execution modes:
 
-1.  **Drag-and-Drop (Maximum Convenience):** 
+1.  **Drag'n'Drop (Maximum Convenience):** 
     Simply drag a folder and drop it directly onto the `Office-Morph.bat` file.
 2.  **Manual Input:** 
     Launch the batch file and paste the target directory path into the console, then confirm with **Enter**.
