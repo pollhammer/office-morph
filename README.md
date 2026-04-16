@@ -56,24 +56,30 @@ This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM inter
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/screenshot_001.png" alt="Office-Morph Interface" width="800">
+  <img src="./screenshots/screenshot_v1.2.002.png" alt="Main Menu" width="800">
+  <br>
+  <i>Main Menu</i>
+</p>
+
+<p align="center">
+  <img src="./screenshots/screenshot_v1.2.003.png" alt="Interface and Execution" width="800">
   <br>
   <i>Interface and Execution</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_002.png" alt="Office-Morph Interface" width="800">
+  <img src="./screenshots/screenshot_v1.2.004.png" alt="Interface and Execution" width="800">
   <br>
   <i>Interface and Execution</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_003.png" alt="Conversion Success" width="800">
+  <img src="./screenshots/screenshot_v1.2.005.png" alt="Successful Conversion Process" width="800">
   <br>
   <i>Successful Conversion Process</i>
 </p>
 
 ---
-
 **Developed by Manuel Pollhammer | Release 2026**
+
 
