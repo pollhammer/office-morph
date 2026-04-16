@@ -21,8 +21,9 @@ The tool is highly flexible and offers three distinct execution modes:
     Simply drag a folder and drop it directly onto the `Office-Morph.bat` file.
 2.  **Manual Input:** 
     Launch the batch file and paste the target directory path into the console, then confirm with **Enter**.
-3.  **Express Mode (Current Folder):** 
-    Launch the batch file and press **Enter** at the path prompt to process the directory where the tool is located.
+3. **Express Mode (Current Folder):**
+   Press **Enter** to process the tool's current directory.
+
 
 ---
 
