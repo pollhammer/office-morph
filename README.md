@@ -68,7 +68,7 @@ This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM inter
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.2.004.png" alt="Interface and Execution" width="800">
+  <img src="./screenshots/screenshot_v1.2.0004.png" alt="Interface and Execution" width="800">
   <br>
   <i>Interface and Execution</i>
 </p>
