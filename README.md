@@ -3,6 +3,7 @@
   <br>
   <strong>v1.2</strong>
   <br>
+  <br>
   <strong>Automated Legacy Office Modernization</strong>
   <br>
   <em>by Manuel Pollhammer (2026)</em>
