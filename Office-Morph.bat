@@ -27,7 +27,7 @@ echo %BLUE% / / / / /_  / /_   / // /   / __/   %GREEN%______   / /^|_/ / / / / 
 echo %BLUE%/ /_/ / __/ / __/ _/ // /___/ /__   %GREEN%/_____/  %GREEN%/ /  / / /_/ / _, _/ ____/ __  /  
 echo %BLUE%\____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^|_/_/   /_/ /_/ 
 echo %RESET%
-echo    OFFICE-MORPH - v1.2
+echo    OFFICE-MORPH - v1.3
 echo    ------------------------
 echo    [1] Start Conversion (Manual Path or Enter for Current)
 echo    [2] Delete Old Files (.doc, .xls, .ppt)
