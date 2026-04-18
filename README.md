@@ -43,11 +43,12 @@ After converting your files, you can now use **Option [2]** in the main menu to:
 *   **Smart Skip:** Efficiently skips files already converted to save time.
 *   **Temp-File Shield:** Automatically ignores hidden Office temporary files (`~$`). **✨NEW✨**
 *   **Clean Naming:** Advanced logic prevents double file extensions (e.g., no `..xlsx`).
-
+---
 ## 📋 Prerequisites
 *   Installed Microsoft Office Suite (Word, Excel, PowerPoint).
 *   Windows PowerShell 5.1 or higher.
-*   **Permissions:** Local admin rights are only required if script execution is disabled for standard users via system policy.
+*   **Admin Rights:** Only needed if script execution is restricted by system policy.
+
 ---
 
 ## 📸 Screenshots
