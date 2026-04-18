@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    OFFICE-MORPH 1.2 - Core Conversion Engine
+    OFFICE-MORPH 1.3 - Core Conversion Engine
     
 .DESCRIPTION
     Converts legacy .doc, .xls, and .ppt files into modern XML formats.
