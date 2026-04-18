@@ -47,8 +47,7 @@ After converting your files, you can now use **Option [2]** in the main menu to:
 ## 📋 Prerequisites
 *   Installed Microsoft Office Suite (Word, Excel, PowerPoint).
 *   Windows PowerShell 5.1 or higher.
-*   Local Administrator permissions.
-
+*   **Permissions:** Local admin rights are only required if script execution is disabled for standard users via system policy.
 ---
 
 ## 📸 Screenshots
