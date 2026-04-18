@@ -9,14 +9,14 @@
 
 ---
 
-## 📝 Description
+## 🚀 What is Office-Morph?
 **Office-Morph** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards. It streamlines the transition from older archives to current, accessible formats.
 
 ## 📦 Components
 *   **Offic-Morph.bat**: The interactive main menu and execution interface.
 *   **FolderConverter.ps1**: The high-performance core processing engine.
 
-## 🚀 Usage Modes
+## 📝 Usage Modes
 The tool is highly flexible and offers three distinct execution modes:
 
 1.  **Drag'n'Drop (Maximum Convenience):** 
