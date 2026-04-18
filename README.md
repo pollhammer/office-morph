@@ -64,7 +64,7 @@ This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM inter
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.2.002.png" alt="Main Menu" width="800">
+  <img src="./screenshots/screenshot_v1.3.001.png" alt="Main Menu" width="800">
   <br>
   <i>Main Menu</i>
 </p>
