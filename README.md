@@ -70,19 +70,19 @@ This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM inter
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.2.003.png" alt="Interface and Execution" width="800">
+  <img src="./screenshots/screenshot_v1.3.002.png" alt="Interface and Execution" width="800">
   <br>
   <i>Interface and Execution</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.2.0004.png" alt="Interface and Execution" width="800">
+  <img src="./screenshots/screenshot_v1.3.003.png" alt="Delete old (.doc, .xls, .ppt) files" width="800">
   <br>
-  <i>Interface and Execution</i>
+  <i>Delete old (.doc, .xls, .ppt) files</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.2.005.png" alt="Successful Conversion Process" width="800">
+  <img src="./screenshots/screenshot_v1.2.004.png" alt="Successful Conversion Process" width="800">
   <br>
   <i>Successful Conversion Process</i>
 </p>
