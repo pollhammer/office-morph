@@ -37,12 +37,6 @@ After converting your files, you can now use **Option [2]** in the main menu to:
 
 ---
 
-## ⚠️ Important: Administrative Rights
-This tool requires **LOCAL ADMINISTRATOR PRIVILEGES** to access Office COM interfaces and perform file system operations.  
-**Please run `Offic-Morph.bat` by RIGHT-CLICKING and selecting "RUN AS ADMINISTRATOR".**
-
----
-
 ## ✨ Key Features
 *   **Summary Statistics:** Provides a detailed report (Converted / Skipped / Errors) after each run. **✨NEW✨**
 *   **Deep Scan:** Automatically detects legacy files across all subdirectories. **✨NEW✨**
