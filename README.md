@@ -1,13 +1,9 @@
 <div align="center">
   
 ![ASCII Logo](./logo/logo.svg)
-  <center><strong>v1.3</strong></center>
-  <br>
-  <strong>Automated Legacy Office Modernization</strong>
-  <br>
-  <em>by Manuel Pollhammer (2026)</em> <br>
-  <br>
-  .doc, .xls, .ppt ➔ .docx, .xlsx, .pptx
+ # v1.3
+ **.doc, .xls, .ppt ➔ .docx, .xlsx, .pptx**<br>
+  by Manuel Pollhammer (2026)
 </div>
 
 
