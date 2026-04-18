@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="./logo/Office-Morph-logo.png" alt="Office-Morph Logo" width="300">
-  <br>
-  <strong>v1.2</strong>
-  <br>
+  
+![ASCII Logo](./logo/logo.svg)
+  <center><strong>v1.3</strong></center>
   <br>
   <strong>Automated Legacy Office Modernization</strong>
   <br>
-  <em>by Manuel Pollhammer (2026)</em>
+  <em>by Manuel Pollhammer (2026)</em> <br>
+  <br>
+  .doc, .xls, .ppt ➔ .docx, .xlsx, .pptx
 </div>
 
 
@@ -32,10 +33,11 @@ The tool is highly flexible and offers three distinct execution modes:
 
 ---
 
-## 🛠️ New in v1.2: Maintenance Module
+## 🛠️ New in v1.3: Maintenance Module
 After converting your files, you can now use **Option [2]** in the main menu to:
 *   **Deep Clean:** Recursively scan and permanently delete old `.doc`, `.xls`, and `.ppt` files.
 *   **Safety First:** Includes a confirmation prompt to prevent accidental data loss.
+*   **New Logo:** Freshly designed ASCII art Logo
 
 ---
 
