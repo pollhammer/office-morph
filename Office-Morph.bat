@@ -12,12 +12,6 @@ set "BLUE=%E%[94m"
 set "GREEN=%E%[92m"
 set "RESET=%E%[0m"
 
-net session >nul 2>&1
-if %errorLevel% neq 0 (
-    echo [!] PLEASE RUN AS ADMINISTRATOR
-    pause & exit /b
-)
-
 :MENU
 cls
 echo.
