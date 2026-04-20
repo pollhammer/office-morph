@@ -26,8 +26,8 @@ echo %BLUE%\____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^
 echo %RESET%
 echo    OFFICE-MORPH - v1.4 ^| Modernizing Legacy Docs
 echo    ----------------------------------------------
-echo    [1] %GREEN%Start Conversion%RESET% (Manual Path or Enter for Current)
-echo    [2] %RED%Delete Old Files%RESET% (.doc, .xls, .ppt)
+echo    [1] Start Conversion%RESET% (Manual Path or Enter for Current)
+echo    [2] Delete Old Files%RESET% (.doc, .xls, .ppt)
 echo    [3] Exit
 echo.
 set /p "choice=Select an option [1-3]: "
