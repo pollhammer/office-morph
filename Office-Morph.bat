@@ -31,6 +31,7 @@ echo    [2] %RED%Delete Old Files%RESET% (.doc, .xls, .ppt)
 echo    [3] Exit
 echo.
 set /p "choice=Select an option [1-3]: "
+cls
 
 if "%choice%"=="1" goto CONVERT
 if "%choice%"=="2" goto DELETE
