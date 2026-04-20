@@ -38,7 +38,7 @@ The latest update focuses on enterprise-grade reliability and transparency:
 ---
 
 ## ✨ Key Features
-*   **Detailed Reports:** Full breakdown (Converted / Skipped / Errors) displayed in console and saved to disk. **✨NEW✨**
+*   **Detailed Reports:** Full breakdown (Converted/Skipped/Errors) displayed in console and saved to disk. **✨NEW✨**
 *   **Path Length Guard:** Explicitly detects and logs path length issues on network drives. **✨NEW✨**
 *   **Deep Scan:** Automatically detects legacy files across all subdirectories.
 *   **Smart Skip:** Skips files already converted (e.g., if a .docx already exists) to save time.
