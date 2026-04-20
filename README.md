@@ -1,7 +1,7 @@
 <div align="center">
   
 ![ASCII Logo](./logo/logo.svg)
- # Office-Morph <br>v1.4
+ # Office-Morph <br>v2.0
  **.doc, .xls, .ppt ➔ .docx, .xlsx, .pptx**<br>
   by Manuel Pollhammer (2026)
 </div>
@@ -10,6 +10,11 @@
 
 ## 🚀 What is Office-Morph?
 **Office-Morph** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards. It streamlines the transition from older archives to current, accessible formats using the native Office COM engine.
+<p align="left">
+  <img src="./screenshots/how-it-works.gif" alt="How It Works" width="1000">
+  <br>
+  <i>How It Works</i>
+</p>
 
 ## 📦 Components
 *   **Office-Morph.bat**: The interactive main menu and execution interface.
@@ -27,7 +32,7 @@ The tool is highly flexible and offers three distinct execution modes:
 
 ---
 
-## 🛠️ New in v1.4: Professional Logging & Stability
+## 🛠️ New in v2.0: Professional Logging & Stability
 The latest update focuses on enterprise-grade reliability and transparency:
 
 * **Detailed Logging:** Full paths and status saved to `office_morph_details.log`.
@@ -55,27 +60,21 @@ The latest update focuses on enterprise-grade reliability and transparency:
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.3.001.png" alt="Main Menu" width="800">
+  <img src="./screenshots/screenshot_v2.0-01.png" alt="Main Menu" width="800">
   <br>
   <i>Main Menu</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.3.002.png" alt="Interface and Execution" width="800">
+ <img src="./screenshots/screenshot_v2.0-02.png" alt="Interface and Execution" width="800">
   <br>
-  <i>Interface and Execution</i>
+ <i>Interface and Execution</i>
 </p>
 
 <p align="center">
-  <img src="./screenshots/screenshot_v1.3.003.png" alt="Delete old (.doc, .xls, .ppt) files" width="800">
+ <img src="./screenshots/screenshot_v2.0-03.png" alt="Log File" width="800">
   <br>
-  <i>Delete old (.doc, .xls, .ppt) files</i>
-</p>
-
-<p align="center">
-  <img src="./screenshots/screenshot_v1.2.004.png" alt="Successful Conversion Process" width="800">
-  <br>
-  <i>Successful Conversion Process</i>
+  <i>Log File</i>
 </p>
 
 ---
