@@ -40,6 +40,15 @@ goto MENU
 
 :CONVERT
 echo.
+echo %BLUE%   ____  ____________________________        %GREEN%   __  _______  ____  ____  __  __
+echo %BLUE%  / __ \/ ____/ ____/  _/ ____/ ____/       %GREEN%   /  ^|/  / __ \/ __ \/ __ \/ / / /
+echo %BLUE% / / / / /_  / /_   / // /   / __/   %GREEN%______   / /^|_/ / / / / /_/ / /_/ / /_/ / 
+echo %BLUE%/ /_/ / __/ / __/ _/ // /___/ /__   %GREEN%/_____/  %GREEN%/ /  / / /_/ / _, _/ ____/ __  /  
+echo %BLUE%\____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^|_/_/   /_/ /_/ 
+echo %RESET%
+echo    OFFICE-MORPH - v1.4 ^| Modernizing Legacy Docs
+echo    ----------------------------------------------
+echo.
 set "target="
 set /p "target=Target Path (Press Enter for current folder): "
 if "!target!"=="" set "target=%~dp0%"
@@ -61,6 +70,15 @@ pause
 goto MENU
 
 :DELETE
+echo.
+echo %BLUE%   ____  ____________________________        %GREEN%   __  _______  ____  ____  __  __
+echo %BLUE%  / __ \/ ____/ ____/  _/ ____/ ____/       %GREEN%   /  ^|/  / __ \/ __ \/ __ \/ / / /
+echo %BLUE% / / / / /_  / /_   / // /   / __/   %GREEN%______   / /^|_/ / / / / /_/ / /_/ / /_/ / 
+echo %BLUE%/ /_/ / __/ / __/ _/ // /___/ /__   %GREEN%/_____/  %GREEN%/ /  / / /_/ / _, _/ ____/ __  /  
+echo %BLUE%\____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^|_/_/   /_/ /_/ 
+echo %RESET%
+echo    OFFICE-MORPH - v1.4 ^| Modernizing Legacy Docs
+echo    ----------------------------------------------
 echo.
 echo %RED%!!! ATTENTION: This will permanently delete old formats !!!%RESET%
 set "delpath="
