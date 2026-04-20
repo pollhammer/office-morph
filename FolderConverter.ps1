@@ -91,11 +91,10 @@ if ($null -eq $files) {
             $errMsg | Out-File $logFile -Append
             $errors++
         }
-
     }
 }
 
-# Cleanup COM objects and close applications
+# Cleanup COM objects
 if ($word) { $word.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null }
 if ($excel) { $excel.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null }
 if ($ppt) { $ppt.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ppt) | Out-Null }
@@ -103,5 +102,10 @@ if ($ppt) { $ppt.Quit(); [System.Runtime.Interopservices.Marshal]::ReleaseComObj
 # Final Log Summary
 $footer = "`r`nSummary: $converted Converted, $skipped Skipped, $errors Errors."
 $footer | Out-File $logFile -Append
+
+# Final Console Output
 Write-Host "---------------------------------------------------"
-Write-Host $footer -ForegroundColor Yellow
+Write-Host "Summary: " -NoNewline
+Write-Host "$converted Converted  " -ForegroundColor Green -NoNewline
+Write-Host "$skipped Skipped  " -ForegroundColor Gray -NoNewline
+Write-Host "$errors Errors" -ForegroundColor Red
