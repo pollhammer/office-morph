@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    OFFICE-MORPH 1.4 - Core Conversion Engine
+    OFFICE-MORPH v2.0 - Core Conversion Engine
     
 .DESCRIPTION
     Converts legacy .doc, .xls, and .ppt files into modern XML formats (.docx, .xlsx, .pptx).
@@ -22,7 +22,7 @@ $logFile = Join-Path $TargetFolder "office_morph_details.log"
 # Summary Counters
 $converted = 0; $skipped = 0; $errors = 0
 
-Write-Host "`n>>> Office-Morph Engine v1.4" -ForegroundColor Cyan
+Write-Host "`n>>> Office-Morph Engine v2.0" -ForegroundColor Cyan
 Write-Host ">>> Logging to: $logFile" -ForegroundColor Gray
 
 # Create Log File Header
