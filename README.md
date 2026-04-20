@@ -30,10 +30,10 @@ The tool is highly flexible and offers three distinct execution modes:
 ## 🛠️ New in v1.4: Professional Logging & Stability
 The latest update focuses on enterprise-grade reliability and transparency:
 
-*   **Detailed Logging:** Generates `office_morph_details.log` in the target folder, documenting every single file path and its status.
-*   **Smart Error Analysis:** Specifically identifies and logs reasons for failure, such as **Path Too Long** (Windows 260-char limit) or file locks.
-*   **Silent Mode & Stability:** Improved background processing with `ReleaseComObject` to ensure Office processes are fully terminated after execution.
-*   **Safety Confirmations:** Enhanced "Delete" module with file listing and [Y/N] confirmation to prevent accidental data loss.
+* **Detailed Logging:** Full paths and status saved to `office_morph_details.log`.
+* **Smart Error Analysis:** Detects specific issues like **Path Too Long** or file locks.
+* **Enhanced Stability:** Optimized background processing and clean Office termination.
+* **Safety First:** Added file listing and confirmation before deleting legacy files.
 
 ---
 
