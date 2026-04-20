@@ -64,7 +64,7 @@ echo.
 echo %RED%!!! ATTENTION: This will permanently delete old formats !!!%RESET%
 set "delpath="
 set /p "delpath=Path to CLEAN (Press Enter for current): "
-if "!delpath!"=="" set "delpath=%cd%"
+if "!delpath!"=="" set "delpath=%~dp0%"
 set "delpath=!delpath:"=!"
 
 echo %YELLOW%[+] Searching for legacy files in: !delpath!%RESET%
