@@ -12,7 +12,7 @@
 **Office-Morph** is an intelligent automation utility designed to seamlessly convert legacy Microsoft Office binary formats into modern XML standards. It streamlines the transition from older archives to current, accessible formats using the native Office COM engine.
 
 <p align="left">
-  <img src="./screenshots/how-it-works.gif" alt="How It Works" width="1000">
+  <img src="./screenshots/how-it-works_02.gif" alt="How It Works" width="1000">
   <br>
   <i>How It Works: Automated batch processing in action.</i>
 </p>
