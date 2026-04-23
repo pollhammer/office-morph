@@ -4,7 +4,7 @@
 
  # Office-Morph <br>v2.0
  **.doc, .xls, .ppt ➔ .docx, .xlsx, .pptx**<br>
-  by Manuel Pollhammer (2026)
+ by Manuel Pollhammer (2026)
 </div>
 
 ---
