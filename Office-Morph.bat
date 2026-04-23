@@ -1,7 +1,7 @@
 @echo off
 :: ============================================================
 :: Office-Morph v2.0
-:: GitHub: https://github.com
+:: GitHub: https://github.com/pollhammer/office-morph
 :: Author: Manuel Pollhammer
 :: ============================================================
 mode con: cols=91 lines=24
