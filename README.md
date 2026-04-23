@@ -1,6 +1,7 @@
 <div align="center">
   
-![ASCII Logo](./logo/logo.svg)
+<img src="logo/logo.svg" width="800" alt="ASCII Logo">
+
  # Office-Morph <br>v2.0
  **.doc, .xls, .ppt ➔ .docx, .xlsx, .pptx**<br>
   by Manuel Pollhammer (2026)
