@@ -1,12 +1,12 @@
 @echo off
 :: ============================================================
-:: Office-Morph v2.0
+:: Office-Morph v2.1
 :: GitHub: https://github.com/pollhammer/office-morph
 :: Author: Manuel Pollhammer
 :: ============================================================
-mode con: cols=91 lines=24
+mode con: cols=91 lines=25
 setlocal enabledelayedexpansion
-title Office-Morph v2.0 - Manuel Pollhammer
+title Office-Morph v2.1 - Manuel Pollhammer
 
 :: ANSI Colors
 for /F "delims=#" %%a in ('"prompt #$E# & for %%b in (1) do rem"') do set "E=%%a"
@@ -25,17 +25,19 @@ echo %BLUE%      / / / / /_  / /_   / // /   / __/   %GREEN%______   / /^|_/ / /
 echo %BLUE%     / /_/ / __/ / __/ _/ // /___/ /__   %GREEN%/_____/  %GREEN%/ /  / / /_/ / _, _/ ____/ __  /  
 echo %BLUE%     \____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^|_/_/   /_/ /_/ 
 echo %RESET%
-echo    OFFICE-MORPH - v2.0 ^| Modernizing Legacy Docs
+echo    OFFICE-MORPH - v2.1 ^| Modernizing Legacy Docs
 echo    ----------------------------------------------
 echo    [1] Start Conversion (Manual Path or Enter for Current)
 echo    [2] Delete Old Files (.doc, .xls, .ppt)
-echo    [3] Exit
+echo    [3] Office Quick Repair (Local Fix)
+echo    [4] Exit
 echo.
-set /p "choice=Select an option [1-3]: "
+set /p "choice=Select an option [1-4]: "
 
 if "%choice%"=="1" goto CONVERT
 if "%choice%"=="2" goto DELETE
-if "%choice%"=="3" exit
+if "%choice%"=="3" goto REPAIR
+if "%choice%"=="4" exit
 goto MENU
 
 :CONVERT
@@ -93,4 +95,31 @@ echo.
 pause
 goto MENU
 
+:REPAIR
+cls
+echo.
+echo %BLUE%        ____  ____________________________        %GREEN%   __  _______  ____  ____  __  __
+echo %BLUE%       / __ \/ ____/ ____/  _/ ____/ ____/       %GREEN%   /  ^|/  / __ \/ __ \/ __ \/ / / /
+echo %BLUE%      / / / / /_  / /_   / // /   / __/   %GREEN%______   / /^|_/ / / / / /_/ / /_/ / /_/ / 
+echo %BLUE%     / /_/ / __/ / __/ _/ // /___/ /__   %GREEN%/_____/  %GREEN%/ /  / / /_/ / _, _/ ____/ __  /  
+echo %BLUE%     \____/_/   /_/   /___/\____/_____/       %GREEN%   /_/  /_/\____/_/ ^|_/_/   /_/ /_/ 
+echo %RESET%
+echo.
+echo %YELLOW%[+] Checking administrator privileges...%RESET%
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo.
+    echo %RED%[!] Error: Administrative privileges required.%RESET%
+    echo     Please restart this batch script as Administrator.
+    pause
+    goto MENU
+)
 
+echo %GREEN%[+] Admin privileges confirmed.%RESET%
+echo.
+echo %YELLOW%[+] Launching Office Quick Repair via PowerShell...%RESET%
+powershell.exe -Command "Start-Process 'C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe' -ArgumentList 'scenario=Repair', 'platform=x64', 'culture=de-de', 'RepairType=QuickRepair'"
+echo.
+echo %GREEN%[+] Repair request sent to ClickToRun engine.%RESET%
+pause
+goto MENU
