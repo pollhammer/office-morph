@@ -2,7 +2,7 @@
   
 <img src="logo/logo.svg" width="800" alt="ASCII Logo">
 
-# Office-Morph <br>v2.0
+# Office-Morph <br>v2.1
 **.doc, .xls, .ppt ➔ .docx, .xlsx, .pptx**<br>
 by Manuel Pollhammer (2026)
 </div>
@@ -19,11 +19,11 @@ by Manuel Pollhammer (2026)
 </p>
 
 ## 📦 Components
-*   **Office-Morph.bat**: The interactive main menu with a new fixed-scale UI (91x24).
+*   **Office-Morph.bat**: The interactive main menu with a fixed-scale UI (91x25).
 *   **FolderConverter.ps1**: The high-performance core processing engine with advanced logging.
 
 ## 📝 Usage Modes
-The tool is highly flexible and offers three distinct execution modes:
+The tool is highly flexible and offers four distinct execution modes:
 
 1.  **Manual Input:** 
     Launch the batch file and paste the target directory path into the console.
@@ -31,16 +31,17 @@ The tool is highly flexible and offers three distinct execution modes:
     Press **Enter** without a path to process the tool's current directory.
 3.  **Secure Cleanup:**
     Integrated mode to permanently delete legacy files after verification.
+4.  **Office Quick Repair:**
+    Built-in troubleshooting option to launch a local Microsoft Office repair directly via the command line.
 
 ---
 
-## 🛠️ New in v2.0: Professional Stability & UI
-The 2.0 update marks a major leap in reliability and user experience:
+## 🛠️ New in v2.1: Office Maintenance Integration
+The 2.1 update introduces built-in maintenance tools alongside the core conversion features:
 
-* **Fixed Window Scaling:** Optimized 91x24 console layout for consistent UI presentation.
-* **Refined PowerShell Core:** Faster indexing and improved COM object disposal to prevent ghost processes.
-* **Enhanced Delete Logic:** Now uses a native PowerShell command for safer recursive file removal.
-* **Smart Error Analysis:** Enhanced detection for **Path Too Long** issues (>260 chars) on network drives.
+* **Integrated Quick Repair:** Instantly trigger a local Microsoft Office repair process without navigating through the Windows Control Panel.
+* **Privilege Detection:** Smart checking for administrative rights to ensure the repair engine runs successfully.
+* **Fixed Window Scaling:** Minor adjustment to a 91x25 console layout to perfectly accommodate the expanded menu.
 
 ---
 
@@ -50,6 +51,7 @@ The 2.0 update marks a major leap in reliability and user experience:
 *   **Smart Skip:** Detects existing `.docx/.xlsx/.pptx` files to avoid redundant processing.
 *   **Temp-File Shield:** Automatically ignores hidden Office owner files (`~$`).
 *   **ANSI Color Support:** Clear visual feedback for successes, skips, and errors.
+*   **One-Click Maintenance:** Fast troubleshooting for corrupted Office COM engines directly from the menu.
 
 ---
 
@@ -57,6 +59,7 @@ The 2.0 update marks a major leap in reliability and user experience:
 *   Installed Microsoft Office Suite (Word, Excel, PowerPoint).
 *   Windows PowerShell 5.1 or higher.
 *   **Execution Policy:** The `.bat` launcher automatically handles the `Bypass` policy for the session.
+*   **Administrative Privileges:** Required only when using the Office Quick Repair option.
 
 ---
 
@@ -65,7 +68,7 @@ The 2.0 update marks a major leap in reliability and user experience:
 <p align="center">
   <img src="./screenshots/screenshot_v2.0-01.png" alt="Main Menu" width="800">
   <br>
-  <i>Main Menu with v2.0 ASCII Header</i>
+  <i>Main Menu with ASCII Header</i>
 </p>
 
 <p align="center">
